@@ -1,0 +1,192 @@
+                          /********* Logo *******/
+nav{
+    display: flex;
+    flex-direction: column;
+}
+
+#logo {
+margin-left: 40%;
+}
+                         /******** Navigation *******/
+
+
+.sub-nav li {
+ width: 50%;
+ text-align: center;
+ border-bottom: 3px solid lightgray;
+}
+
+.sub-nav li:hover {
+    border-bottom: 3px solid var(--blue);
+    border-top: none
+    }
+.sub-nav li:hover a {
+    color: var(--blue);
+}
+h1 {
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+p {
+    margin-top: 3%;
+   
+}
+                             /****** Recherche ******/
+
+.recherche{
+    margin-left: 5%;
+    margin-bottom: 5%;
+    margin-top: 10%;
+}
+
+.recherche input {
+    padding: 0%;
+    padding-left: 3%;
+   
+    
+    
+}
+
+.recherche input::placeholder {
+    font-weight: bold; color: black
+    
+  }
+
+#btn-icone {
+    display:flex;
+    color: white;
+    cursor: pointer 
+    
+}
+
+.recherche button {
+    margin-left: -15px;
+    border-radius: 16px 16px 16px 16px;
+}
+
+
+                               /******* Filtres ****/
+
+.filtre {
+    display: inherit;
+}
+
+.liste {
+    margin-top: 5%;
+    gap: 16px;
+}
+
+.logements p {
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+                      /******** CARTES populaires *****/
+
+.sections {
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.liste_populaires > div {
+    margin: 0%;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+.populaires {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    border-radius: 0%;
+}
+
+.populaires h2 {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5%;
+}
+.populaires i {
+    margin-right: 5%;
+}
+
+.liste_populaires {
+    width: 100%;
+    display:flex;
+    
+}
+
+.liste_populaires img {
+   width: 100%;
+   border-radius: 16px 0 0 16px;
+}
+
+.description {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 15px;
+}
+
+.description h3 {
+ margin: 0%;
+}
+
+.description p {
+    margin: 0%;
+}
+.description .etoiles {
+
+    margin: 0%;
+    display: flex;
+    margin-top: 50px;
+ 
+}
+
+                      /******** CARTE hébergements marseille *****/
+
+.hebergements {
+    display: inherit;
+    flex-direction: column;
+    background-color: white;
+}
+
+.liste_hebergements {
+    width: 90%;
+    margin-left: 30px;
+}
+
+
+                /******** Footer ********/
+
+footer {
+display: flex;
+flex-direction: column;
+    
+}
+.footer {
+    background-color: lightgrey;
+}
+
+footer h3 {
+margin-left: 1%;
+}
+.foot1{
+    padding: 0%;
+}
+.foot2 {
+    padding: 0%;
+    margin-left: 3% ;
+    margin-top: 7%;
+}
+
+.foot3{
+    padding: 0%;
+    margin-left: 3%;
+    margin-top: 7%;
+}
+
+#btn-recherche{
+    display:none;
+}

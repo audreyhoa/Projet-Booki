@@ -1,0 +1,117 @@
+/***** Recherche *****/
+#btn-icone {
+    display:none;
+}
+
+
+/****** Filtres *****/
+.liste{
+    display: flex;
+    gap: 0.16px;
+}
+
+
+
+/******* Main ******/
+
+.sections{
+    display: flex;
+    flex-direction: column;
+}
+
+
+/***** Populaires *****/
+.liste_populaires {
+
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.liste_populaires > div {
+display: flex;
+flex-wrap: nowrap;
+}
+
+.description {
+    display: flex;
+    flex-wrap: wrap;
+    width: 30%;
+}
+.liste_populaires img {
+    width: 60%;
+}
+
+
+.populaires h2{
+    margin: 0%;
+    margin-top: 5%;
+    margin-bottom: 3%;
+}
+
+
+
+
+.description h3 {
+margin: 0%;
+margin: 0.8px;
+}
+
+.description p{
+    margin: 0%;
+    padding: 0%;
+    margin: 0.8px;
+}
+
+.description .etoiles {
+    margin: 0%;
+    margin-left: 0.8px;
+}
+
+                     /********* CARTE activités à Marseille *****/
+.liste_activitees {
+    display: inline-block;
+    width: 100%;
+                     
+}
+                    
+#col1 {
+    margin: auto;
+     width: 90%;
+     margin-bottom: 5%;
+}
+                    
+#col2 {
+    margin: auto;
+    width: 90%;
+    margin-bottom: 5%;
+}
+
+.medium1 img {
+    height: 30vw;
+                    
+}
+                    
+.small1 img {
+    height: 30vw;
+    margin-top: 5%;
+}
+                    
+#col3 {
+    margin: auto;
+    width: 90%;
+    margin-bottom: 5%;
+}
+                    
+#col4 {
+    margin: auto;
+    width: 90%;
+}
+.small2 img {
+    height: 30vw;
+}
+                    
+                                           
+ .medium2 img {
+    height: 30vw;
+    margin-top: 5%;
+}
